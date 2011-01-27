@@ -1,0 +1,6 @@
+<% for book in @books %>
+  <%= book.name%>
+  <br/>
+<% end %>
+
+<%= link_to 'New book', new_book_path %>
