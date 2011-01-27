@@ -9,7 +9,7 @@ class Ability
     end
     
     can :manage, Article do |article|
-      puts 'can manage book?'
+      puts 'can manage article?'
       true
     end
     
